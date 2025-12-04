@@ -23,13 +23,13 @@ El proyecto incluye varias clases que representan objetos reales (Bolso, CascoMo
 
 src
 └── main
-└── java
-├── com.example
-│ └── Main.java
-└── modelo
-├── Bolso.java
-├── CascoMoto.java
-└── ParlantePhonic.java
+    └── java
+        ├── com.example 
+        │   └── Main.java
+        └── modelo
+            ├── Bolso.java
+            ├── CascoMoto.java
+            └── ParlantePhonic.java
 
 ---
 
@@ -49,7 +49,8 @@ Representa un bolso real con atributos como:
 
 ### 🔊 **ParlantePhonic**
 Simula un parlante portátil:
-- Marca y modelo  
+- Marca 
+- Modelo  
 - Precio  
 - Portátil (boolean)  
 - Potencia en watts  
@@ -61,14 +62,14 @@ Simula un parlante portátil:
 Representa un casco de motocicleta con:
 - Fabricante  
 - Talla  
-- Tipo de intercomunicador  
+- Tiene Intercomunicador 
 - Batería  
-- Contactos de emergencia  
+- Contactos Pareados  
 - Parlante integrado  
 
 ---
 
-## 🖥️ Salida en Consola
+## 🖥️ **Salida en Consola**
 
 El programa imprime los objetos creados usando toString().
 Ejemplo:
@@ -86,13 +87,13 @@ Bolso:
 
 ---
 
-## Requisitos
+## **Requisitos**
 
 - Java 17 o superior
 - Maven 3+
 - IDE recomendado: IntelliJ IDEA / VS Code / NetBeans
 
-### 📘 Conceptos Aplicados
+### 📘 **Conceptos Aplicados**
 
 - Modelado de objetos
 
@@ -104,7 +105,7 @@ Bolso:
 
 - Paquetes y organización de código
 
-## Autor
+## **Autor**
 
 Mateo Betancur Escobar
 Ficha: 3144585
