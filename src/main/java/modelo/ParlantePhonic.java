@@ -94,11 +94,11 @@ public class ParlantePhonic {
     public String toString() {
         return "\n" +
                 "ParlantePhonic:" + "\n" +
-                "  Marca ='" + marca + '\'' + "\n" +
+                " {Marca ='" + marca + '\'' + "\n" +
                 "  Modelo ='" + modelo + '\'' + "\n" +
                 "  Precio =" + precio + "\n" +
                 "  Es Portatil =" + esPortatil + "\n" +
-                "  Potencia WattS =" + potenciaWatt + "\n" +
+                "  Potencia WattS =" + potenciaWatt + "}\n" +
                 "  FechaFabricacion =" + fechaFabricacion + "\n";
     }
 }
